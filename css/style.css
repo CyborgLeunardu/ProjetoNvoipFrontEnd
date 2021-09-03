@@ -46,10 +46,6 @@ body {
     padding-bottom: 40px;
 }
 
- .search-all {
-   
-} 
-
 .div-search-input .btn {
   padding: 6px 6px 7px 6px;
   background-color: #6d2d4a;
@@ -226,4 +222,24 @@ l {
 
   .last-line {
       background: #6d2d4a;
+      padding: 0px;
+    
+  }
+
+  .last-line img{
+    margin-bottom: -5px;
+      width: 24px;
+      
+  }
+
+  .last-line button:first-child{
+    margin-right: 20px;
+  }
+
+  .btn-icon {
+      width: 24px;
+      height: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
   }
