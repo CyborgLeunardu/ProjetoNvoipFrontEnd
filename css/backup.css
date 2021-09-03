@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 700;
+  color: #f37435;
+  margin-top: 40px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  background: #fff;
+}
+/* #F37435 */
+.menu {
+  background: #f37435;
+}
+
+.menu img {
+  float: right;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+}
+
+/* INDEX */
+
+/* .search-all {
+  /* background: #fff;
+    border-radius: 10px;
+    padding: 20px; 
+    box-shadow: 5px 5px 10px #d4d4d4;
+    margin-left: 10px;
+} */
+
+.div-search-input .btn {
+  padding: 6px 6px 7px 6px;
+  background-color: #6D2D4A;
+  color: #fff;
+}
+
+.input-search {
+  border: #6D2D4A solid 2px;
+  margin-bottom: 40px;
+  padding: 6px 3px 5px 3px;
+  width: 300px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+
+}
+
+.table-top {
+  background: #f37435;
+  color: #fff;
+  border: none;
+}
+
+.table-top td {
+  border: none;
+  text-align: center;
+}
+
+.table td {
+  border: none;
+  padding: 5px;
+}
+
+.table tr:nth-child(even) {
+  background: #e0e0e0;
+}
+
+.buttons .btn {
+    padding: 6px;
+    background: #f37435;
+    margin-left: 10px;
+}
+
+.btn.btn-add {
+    padding: 9px 6px 3px 6px;
+    float: right;
+    margin-right: -10px;
+    background: #6D2D4A;
+}
