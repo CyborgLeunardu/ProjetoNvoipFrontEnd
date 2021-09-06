@@ -86,7 +86,9 @@ body {
 
 .table td {
   border: none;
-  padding: 5px;
+  padding: 5px 0px 5px 0px;
+  max-width: 90px;
+  word-break: break-all;
 }
 
 .table tr:nth-child(even) {
@@ -102,6 +104,14 @@ body {
 .table-top td {
   border: none;
   text-align: center;
+}
+
+.table tr td:nth-of-type(5){
+  max-width: 60px;
+}
+
+.table tr td:nth-of-type(9){
+  max-width: 40px;
 }
 
 /* CHECK DA TABELA */
