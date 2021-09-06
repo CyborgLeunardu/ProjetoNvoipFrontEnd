@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
-
 
   <body>
     <section class="menu">
@@ -24,42 +23,44 @@
     </section>
 
     <section class="container search-mother">
-      <div class="grid-17">
+      <div class="div-with-grid-17 grid-17">
         <h1>Dados do Cliente</h1>
 
-        <div class="div-search-input grid-17">
+        <div class="div-search-input grid-17 div-with-grid-17">
           <input type="text" class="input-search" />
           <button class="btn"><img src="img/search-white.png" alt="" /></button>
         </div>
 
-        <table class="table grid-17">
-          <tr class="table-top">
-            <td>Nome</td>
-            <td>Sobrenome</td>
-            <td>E-mail</td>
-            <td>CPF</td>
-            <td>CEP</td>
-            <td>Endereço</td>
-            <td>Bairro</td>
-            <td>Cidade</td>
-            <td>Estado</td>
-            <td>País</td>
-            <td>Telefone</td>
-            <td></td>
-          </tr>
+        <table id="table" class="table grid-17 div-with-grid-17 responsive">
+          <thead>
+            <tr class="table-top top" id="tableTop">
+              <th scope="col">Nome</th>
+              <th scope="col">Sobrenome</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">CPF</th>
+              <th scope="col">CEP</th>
+              <th scope="col">Endereço</th>
+              <th scope="col">Bairro</th>
+              <th scope="col">Cidade</th>
+              <th scope="col">Estado</th>
+              <th scope="col">País</th>
+              <th scope="col">Telefone</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
           <tr>
-            <td>Nvoiper</td>
-            <td>Telefonia</td>
-            <td>nvoip@gmail.com</td>
-            <td>080401922092</td>
-            <td>360120-456</td>
-            <td>Av. Rio Branco</td>
-            <td>Cruzeiro do Sul</td>
-            <td>Juiz de Fora</td>
-            <td> MG </td>
-            <td> Brasil </td>
-            <td>992340950</td>
-            <td>
+            <td data-label="Nome">Nvoiper</td>
+            <td data-label="Sobrenome">Telefonia</td>
+            <td data-label="E-mail">nvoip@gmail.com</td>
+            <td data-label="CPF">080401922092</td>
+            <td data-label="CEP">360120-456</td>
+            <td data-label="Endereço">Av. Rio Branco</td>
+            <td data-label="Bairro">Cruzeiro do Sul</td>
+            <td data-label="Cidade">Juiz de Fora</td>
+            <td data-label="Estado">MG</td>
+            <td data-label="País">Brasil</td>
+            <td data-label="Telefone">992340950</td>
+            <td data-label="">
               <label class="container-input">
                 <input type="radio" checked="checked" name="radio" />
                 <span class="checkmark"></span>
@@ -68,80 +69,79 @@
           </tr>
 
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
+            <td data-label="Nome">Nvoiper</td>
+            <td data-label="Sobrenome">Telefonia</td>
+            <td data-label="E-mail">nvoip@gmail.com</td>
+            <td data-label="CPF">080401922092</td>
+            <td data-label="CEP">360120-456</td>
+            <td data-label="Endereço">Av. Rio Branco</td>
+            <td data-label="Bairro">Cruzeiro do Sul</td>
+            <td data-label="Cidade">Juiz de Fora</td>
+            <td data-label="Estado">MG</td>
+            <td data-label="País">Brasil</td>
+            <td data-label="Telefone">992340950</td>
+            <td data-label="">
               <label class="container-input">
-                <input type="radio" name="radio" />
+                <input type="radio" checked="checked" name="radio" />
                 <span class="checkmark"></span>
               </label>
             </td>
           </tr>
 
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
+            <td data-label="Nome">Nvoiper</td>
+            <td data-label="Sobrenome">Telefonia</td>
+            <td data-label="E-mail">nvoip@gmail.com</td>
+            <td data-label="CPF">080401922092</td>
+            <td data-label="CEP">360120-456</td>
+            <td data-label="Endereço">Av. Rio Branco</td>
+            <td data-label="Bairro">Cruzeiro do Sul</td>
+            <td data-label="Cidade">Juiz de Fora</td>
+            <td data-label="Estado">MG</td>
+            <td data-label="País">Brasil</td>
+            <td data-label="Telefone">992340950</td>
+            <td data-label="">
               <label class="container-input">
-                <input type="radio" name="radio" />
+                <input type="radio" checked="checked" name="radio" />
+                <span class="checkmark"></span>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td data-label="Nome">Nvoiper</td>
+            <td data-label="Sobrenome">Telefonia</td>
+            <td data-label="E-mail">nvoip@gmail.com</td>
+            <td data-label="CPF">080401922092</td>
+            <td data-label="CEP">360120-456</td>
+            <td data-label="Endereço">Av. Rio Branco</td>
+            <td data-label="Bairro">Cruzeiro do Sul</td>
+            <td data-label="Cidade">Juiz de Fora</td>
+            <td data-label="Estado">MG</td>
+            <td data-label="País">Brasil</td>
+            <td data-label="Telefone">992340950</td>
+            <td data-label="">
+              <label class="container-input">
+                <input type="radio" checked="checked" name="radio" />
                 <span class="checkmark"></span>
               </label>
             </td>
           </tr>
 
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
+            <td data-label="Nome">Nvoiper</td>
+            <td data-label="Sobrenome">Telefonia</td>
+            <td data-label="E-mail">nvoip@gmail.com</td>
+            <td data-label="CPF">080401922092</td>
+            <td data-label="CEP">360120-456</td>
+            <td data-label="Endereço">Av. Rio Branco</td>
+            <td data-label="Bairro">Cruzeiro do Sul</td>
+            <td data-label="Cidade">Juiz de Fora</td>
+            <td data-label="Estado">MG</td>
+            <td data-label="País">Brasil</td>
+            <td data-label="Telefone">992340950</td>
+            <td data-label="">
               <label class="container-input">
-                <input type="radio" name="radio" />
-                <span class="checkmark"></span>
-              </label>
-            </td>
-          </tr>
-
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-              <label class="container-input">
-                <input type="radio" name="radio" />
+                <input type="radio" checked="checked" name="radio" />
                 <span class="checkmark"></span>
               </label>
             </td>
@@ -159,40 +159,40 @@
           </tr>
         </table>
 
-        <div class="buttons grid-18">
-          <div class="tooltip">
+        <ul class="buttons grid-18 div-with-grid-17">
+          <li class="tooltip">
             <button class="btn"><img src="img/edit-white.png" alt="" /></button>
             <span class="tooltiptext">Editar Cliente</span>
-          </div>
+          </li>
 
-          <div class="tooltip">
+          <li class="tooltip">
             <button class="btn">
               <img src="img/delete-white.png" alt="" />
             </button>
             <span class="tooltiptext">Excluir Cliente</span>
-          </div>
+          </li>
 
-          <div class="tooltip">
+          <li class="tooltip">
             <button class="btn">
               <img src="img/send-sms-white.png" alt="" />
             </button>
             <span class="tooltiptext">Enviar SMS</span>
-          </div>
+          </li>
 
-          <div class="tooltip">
+          <li class="tooltip">
             <button class="btn">
               <img src="img/voice-message-white.png" alt="" />
             </button>
             <span class="tooltiptext">Enviar SMS de Voz</span>
-          </div>
+          </li>
 
-          <div class="tooltip tooltip-signup">
+          <li class="tooltip tooltip-signup">
             <a href="signUp.html" class="btn btn-add"
               ><img src="img/add-user-white.png" alt=""
             /></a>
             <span class="tooltiptext">Cadastrar Cliente</span>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
   </body>
