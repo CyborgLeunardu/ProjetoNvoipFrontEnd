@@ -38,6 +38,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  color: #fff;
 }
 
 /* INDEX */
@@ -249,3 +250,6 @@ body {
   border: none;
   cursor: pointer;
 }
+
+/* POPUP */
+
