@@ -37,6 +37,17 @@ form {
   background: #e05616;
 }
 
+.container-fluid{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
+.form-control{
+  border-radius: 5px;
+  border: 1px solid orangered;
+}
+
 
 
 
