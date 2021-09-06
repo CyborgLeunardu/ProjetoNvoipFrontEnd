@@ -1,0 +1,171 @@
+/* ESTILO PARA TABLETS */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .div-with-grid-17 {
+    width: 748px;
+  }
+
+  .table {
+    width: 700px;
+    overflow-x: auto;
+  }
+
+  .btn-add {
+    margin-right: 200px;
+  }
+
+  .table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  .table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+    max-width: 700px;
+  }
+
+  .table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  .table tr td:nth-of-type(5),
+  .table tr td:nth-of-type(9) {
+    max-width: 700px;
+  }
+
+  .table tr td span {
+    margin-left: 675px;
+  }
+
+  .table tr:nth-child(even) {
+    background: none;
+  }
+
+  .table .last-line .btn-icon:last-of-type {
+    margin: 0 auto;
+    margin-right: 300px;
+    float: none;
+  }
+}
+
+/* ESTILO PARA SMARTPHONES */
+
+@media only screen and (max-width: 787px) {
+  .div-with-grid-17 {
+    width: 300px;
+  }
+
+  .table {
+    width: 240px;
+    overflow-x: auto;
+  }
+
+  .buttons:last-child {
+    margin-top: 40px;
+    display: block;
+  }
+
+  .btn.btn-add img {
+    margin-top: 20px;
+  }
+
+  .tooltip-signup {
+    float: none;
+  }
+
+  .tooltip-signup .tooltiptext {
+    margin-bottom: -10px;
+    margin-left: -40px;
+  }
+
+  .btn.btn-add {
+    clear: both;
+    margin-left: 95px;
+    float: none;
+  }
+
+  .table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  .table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+    max-width: 240px;
+  }
+
+  .table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  .table tr td:nth-of-type(5),
+  .table tr td:nth-of-type(9) {
+    max-width: 240px;
+  }
+
+  .table tr td span {
+    margin-left: 215px;
+  }
+
+  .table tr:nth-child(even) {
+    background: none;
+  }
+
+  .table .last-line .btn-icon:last-of-type {
+    margin: 0 auto;
+    margin-right: 90px;
+    float: none;
+  }
+
+  .div-search-input .input-search {
+    width: 180px;
+  }
+
+  .div-search-input {
+    width: 300px;
+  }
+}
