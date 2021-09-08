@@ -1,0 +1,25 @@
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    
+.link-return{
+    
+    margin-right: 195px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 787px) {
+    input, select, textarea {
+        width: 100%;
+
+        margin-bottom: 15px;
+        padding: 6px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: horizontal;
+      }
+} 
+
+
+
+

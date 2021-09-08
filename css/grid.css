@@ -6,8 +6,15 @@
   box-sizing: border-box;
 }
 
-.container {
+.container-18 {
   width: 1060px;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.container {
+  width: 940px;
   margin: 0 auto;
   padding: 0px;
   position: relative;

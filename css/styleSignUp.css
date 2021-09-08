@@ -1,4 +1,4 @@
-/* FONTES */
+FONTES
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
@@ -8,12 +8,13 @@
 form {
   font-family: "Roboto", sans-serif;
   line-height: 25px;
-  color: #f37435;
+  text-align: center;
   width:250px;
   text-align: center;
-  margin: auto;
+
   display:table;
- 
+
+  
  
  }
 
@@ -31,29 +32,40 @@ form {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-left: 233px;
 }
 
 .button:hover{
   background: #e05616;
 }
 
-.container-fluid{
-  padding-left: 0rem;
-  padding-right: 0rem;
-  overflow: hidden;
-}
+
 
 .form-control{
   border-radius: 5px;
-  border: 1px solid orangered;
+  border: 2px solid #f37435;
+  text-align:center;
+  
 }
 
 input, select, textarea {
   width: 100%;
+  
+  margin-bottom: 15px;
   padding: 6px;
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: horizontal;
+}
+
+.link-return{
+  float:right;
+  margin-right: 363px;
+  margin-top: 40px;
+}
+
+.form-field{
+  margin-left: 170px;
 }
 
 
