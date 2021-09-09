@@ -3,22 +3,69 @@
     
 .link-return{
     
-    margin-right: 195px;
+    margin-right: 250px;
     margin-top: 40px;
   }
+  .button {
+    background-color: #f37435; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 0px;
+    
 }
-
+}
 @media only screen and (max-width: 787px) {
     input, select, textarea {
-        width: 100%;
-
+        width: 95%;
+    
         margin-bottom: 15px;
         padding: 6px;
         border: 1px solid #ccc;
         border-radius: 4px;
         resize: horizontal;
       }
-} 
+      
+.form-field{
+  margin-left: 7px;
+
+}
+
+.button {
+  background-color: #f37435; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0px;
+ 
+  
+
+}
+    
+.link-return{
+
+  margin-right: 35px;
+  margin-top: 40px;
+}
+input, select, textarea {
+  margin-right: 12px;
+  margin-bottom: 5px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: horizontal;
+}
+
+}
+
 
 
 
